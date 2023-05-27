@@ -25,6 +25,7 @@ const LeftBar = ({ changeSelectedNavItem }) => {
   };
 
   const handleclick = (event) => {
+    setIsOpen(false);
     setText(event.target.innerText);
   };
 
