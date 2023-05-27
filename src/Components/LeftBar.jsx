@@ -11,6 +11,7 @@ const LeftBar = ({ changeSelectedNavItem }) => {
 
   useEffect(() => {
     changeSelectedNavItem(text);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text]);
 
   const toggleDropdown = (event) => {
@@ -19,8 +20,8 @@ const LeftBar = ({ changeSelectedNavItem }) => {
   };
 
   const handleDropdownClick = (event) => {
-    let newText = text.split('/')
-    setText(newText[0] +" / " + event.target.innerText);
+    let newText = text.split("/");
+    setText(newText[0] + " / " + event.target.innerText);
   };
 
   const handleclick = (event) => {
@@ -29,28 +30,29 @@ const LeftBar = ({ changeSelectedNavItem }) => {
 
   return (
     <div className="h-screen w-full bg-navColor pr-1">
-      <div className="box-border h-[51px] bg-navColor opacity-[100%] px-3 flex items-center justify-between">
+      <div className="box-border h-[51px] bg-navColor opacity-[100%] px-3 flex items-center justify-between  sm:text-xs">
         <h2 className="text-white flex items-center gap-2">
           <img src={arrow} alt="title" />
           <img src={title} alt="title" />
         </h2>
-        <div className="flex justify-center items-center">
-        <button className="text-white">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="w-6 h-6"
-          >
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </button></div>
+        <div className="justify-center items-center hidden md:flex">
+          <button className="text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-6 h-6"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
       </div>
 
       <div className="flex flex-col items-start justify-start w-full text-white">
@@ -66,27 +68,45 @@ const LeftBar = ({ changeSelectedNavItem }) => {
         </button>
         {isOpen && (
           <div className="w-full">
-            <button className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]" onClick={handleDropdownClick}>
+            <button
+              className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]"
+              onClick={handleDropdownClick}
+            >
               <img src={fourDotGray} alt="fourDot" />
               <span>Tech Product Design And Develop…</span>
             </button>
-            <button className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]" onClick={handleDropdownClick}>
+            <button
+              className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]"
+              onClick={handleDropdownClick}
+            >
               <img src={fourDotGray} alt="fourDot" />
               <span>Consultation</span>
             </button>
-            <button className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]" onClick={handleDropdownClick}>
+            <button
+              className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]"
+              onClick={handleDropdownClick}
+            >
               <img src={fourDotGray} alt="fourDot" />
               <span>IOS</span>
             </button>
-            <button className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]" onClick={handleDropdownClick}>
+            <button
+              className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]"
+              onClick={handleDropdownClick}
+            >
               <img src={fourDotGray} alt="fourDot" />
               <span>Android</span>
             </button>
-            <button className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]" onClick={handleDropdownClick}>
+            <button
+              className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]"
+              onClick={handleDropdownClick}
+            >
               <img src={fourDotGray} alt="fourDot" />
               <span>React</span>
             </button>
-            <button className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]" onClick={handleDropdownClick}>
+            <button
+              className="flex items-center gap-2 px-4 w-full text-start opacity-[60%] text-white bg-black hover:bg-white hover:text-black  h-[36.5px]"
+              onClick={handleDropdownClick}
+            >
               <img src={fourDotGray} alt="fourDot" />
               <span>Flutter</span>
             </button>
