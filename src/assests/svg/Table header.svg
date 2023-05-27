@@ -1,0 +1,33 @@
+<svg id="Component_1255_1" data-name="Component 1255 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1666" height="40.5" viewBox="0 0 1666 40.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.991" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f5b1"/>
+      <stop offset="1" stop-color="#00e9e0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_13668" data-name="Group 13668" transform="translate(-268 -58)">
+    <rect id="Rectangle_3668" data-name="Rectangle 3668" width="1666" height="40" transform="translate(268 58)" fill="url(#linear-gradient)"/>
+    <path id="Path_16035" data-name="Path 16035" d="M-19564-23592h1653.859" transform="translate(19832 23690)" fill="none" stroke="#020110" stroke-width="1" opacity="0.3"/>
+  </g>
+  <g id="Group_11863" data-name="Group 11863" transform="translate(-365.102 -164)">
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="1.377" cy="1.377" r="1.377" transform="translate(411.914 182.754) rotate(180)" fill="#020110"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="1.377" cy="1.377" r="1.377" transform="translate(411.914 187.754) rotate(180)" fill="#020110"/>
+    <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="1.377" cy="1.377" r="1.377" transform="translate(406.84 182.754) rotate(180)" fill="#020110"/>
+    <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="1.377" cy="1.377" r="1.377" transform="translate(406.84 187.754) rotate(180)" fill="#020110"/>
+  </g>
+  <text id="Subtotal" transform="translate(1614 25)" fill="#141321" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="-56" y="0">Subtotal</tspan></text>
+  <text id="Negotiable" transform="translate(1418 25)" fill="#141321" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">Negotiable</tspan></text>
+  <text id="Min_Qty" data-name="Min Qty" transform="translate(972 25)" fill="#141321" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="-26" y="0">Min Qty</tspan></text>
+  <text id="Max_Qty" data-name="Max Qty" transform="translate(1048 25)" fill="#141321" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">Max Qty</tspan></text>
+  <text id="Timeline" transform="translate(1182 25)" fill="#141321" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="-28" y="0">Timeline</tspan></text>
+  <text id="Add_Associated_Tasks_Their_Details" data-name="Add Associated Tasks &amp; Their Details" transform="translate(83 25)" fill="#020110" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">Add Associated Tasks &amp; Their Details</tspan></text>
+  <text id="Unit_Price" data-name="Unit Price" transform="translate(1258 25)" fill="#141321" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">Unit Price</tspan></text>
+  <g id="Component_1243_14" data-name="Component 1243 – 14" transform="translate(17 14)" opacity="0.001">
+    <g id="Ellipse_65" data-name="Ellipse 65" fill="none" stroke="#020110" stroke-width="1" opacity="0.6">
+      <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+      <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+    </g>
+    <circle id="Ellipse_66" data-name="Ellipse 66" cx="3.5" cy="3.5" r="3.5" transform="translate(2 2)" fill="#020110" opacity="0"/>
+  </g>
+  <text id="Type" transform="translate(794 25)" fill="#141321" font-size="16" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">Type</tspan></text>
+</svg>
